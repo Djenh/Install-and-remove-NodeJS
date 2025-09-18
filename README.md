@@ -42,6 +42,7 @@ It is better to remove NodeJS and its modules manually because installation leav
 
 To start deletion execute the following commands
 ``` console
+sudo apt-get remove node
 sudo apt-get remove nodejs
 sudo apt-get remove npm
 ```
