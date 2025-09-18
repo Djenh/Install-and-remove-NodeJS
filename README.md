@@ -64,7 +64,15 @@ sudo rm -rf /usr/local/bin/node*
 sudo rm -rf ~/.npm-global
 ```
 
-Then execute
+Another way to delete NodeJS is to use following commands
+``` console
+sudo apt-get purge nodejs
+sudo rm /etc/apt/sources.list.d/nodesource.list
+rm -rf ~/.npm
+```
+
+
+Finally execute
 ``` console
 sudo apt-get update
 ```
